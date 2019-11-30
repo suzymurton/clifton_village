@@ -1,3 +1,28 @@
-h1 {
+
+img{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+a{
+float: left;
+font-size: 12px;
+font-family: 'Chalkduster';
+    src: url('Chalkduster.ttf');
+  }
+
+a:hover {
+  transition: 0.6s ease;
   color: red;
+}
+
+.topnav a{
+ 
+ align: center;
+ background-color: #ABD6F1;
+ text-align: center;
+ padding: 1px 16px;
+ text-decoration: none;
+ font-size: 1vw;
 }
