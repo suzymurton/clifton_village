@@ -4,6 +4,7 @@
     <title> Clifton Village </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css"    href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
   </head>
 <style>
 
@@ -27,6 +28,14 @@ body{
   font-size: 16px;
   cursor: pointer;
   font-family: verdana;
+}
+.map-button input {
+  border: #a6a6ed;
+  background-color: #a6a6ed;
+  transition: all 0.5s ease-in-out;
+}
+.map-button:hover input {
+  background-color: #FFFFFF;
 }
 .button2{
   position:absolute;
@@ -135,8 +144,7 @@ body{
 
 h1{
   text-align: center;
-  font-family: 'Chalkduster';
-      src: url('Chalkduster.ttf');
+  font-family: 'Ubuntu', sans-serif;
 }
 
 </style>
@@ -166,39 +174,39 @@ h1{
 <div class="imagewrap">
   <img src="Clifton Map.jpeg" width=100%>
 
-<div class="button1">
+<div class="button1 map-button">
 <input type="button" onclick= "window.location.href = 'bristolzoo.html';" value="Bristol Zoo"/>
 </div>
 
-<div class="button2">
+<div class="button2 map-button">
 <input type="button" onclick= "window.location.href = 'arcade.html';" value="Clifton Arcade"/>
 </div>
 
-<div class="button3">
+<div class="button3 map-button">
 <input type="button" onclick= "window.location.href = 'suspensionbridge.html';" value="Clifton Suspension Bridge"/>
 </div>
 
-<div class="button4">
+<div class="button4 map-button">
 <input type="button" onclick= "window.location.href = 'cori_tap.html';" value="The Cori Tap"/>
 </div>
 
-<div class="button5">
+<div class="button5 map-button">
 <input type="button" onclick= "window.location.href = 'birdcage_walk.html';" value="The Birdcage Walk"/>
 </div>
 
-<div class="button6">
+<div class="button6 map-button">
 <input type="button" onclick= "window.location.href = 'goldney.html';" value="Goldney Grotto"/>
 </div>
 
-<div class="button7">
+<div class="button7 map-button">
 <input type="button" onclick= "window.location.href = 'lido.html';" value="The Lido"/>
 </div>
 
-<div class="button8">
+<div class="button8 map-button">
 <input type="button" onclick= "window.location.href = 'everyman.html';" value="The Everyman Cinema"/>
 </div>
 
-<div class="button9">
+<div class="button9 map-button">
 <input type="button" onclick= "window.location.href = 'cabot_tower.html';" value="Cabot Tower"/>
 </div>
 

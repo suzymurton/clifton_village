@@ -8,8 +8,7 @@
 a{
 float: left;
 font-size: 12px;
-font-family: 'Chalkduster';
-    src: url('Chalkduster.ttf');
+font-family: 'Ubuntu', sans-serif;
   }
 
 a:hover {
