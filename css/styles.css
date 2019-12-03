@@ -1,5 +1,5 @@
 
-img{
+.imagewrap{
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -18,7 +18,7 @@ a:hover {
 }
 
 .topnav a{
- 
+
  align: center;
  background-color: #ABD6F1;
  text-align: center;
